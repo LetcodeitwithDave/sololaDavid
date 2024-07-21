@@ -18,7 +18,8 @@ export default {
       colors: {
         
         buttonColor: '#8300c4',
-        baseContent: '#5C5B61',
+        baseContent: '#30313D',
+        baseContentSecondary: '#5C5B61',
         
       },
     },
