@@ -1,10 +1,11 @@
 import React from "react";
+import Contact from "./Contacts";
 
 function Nav() {
   const navLinks = [
     { href: "#dashboard", label: "Home", current: true },
-    { href: "#Team", label: "Projects", current: false },
-    { href: "#Team", label: "About", current: false },
+    { href: "#Team", label: "Works", current: false },
+    { href: "/contact", label: "Contact", current: false },
   ];
   return (
     <div className=" flex  justify-between items-center   mt-4">
@@ -32,9 +33,9 @@ function Nav() {
       </div>
 
       <div>
-        <button className=" font-poppinsRegular border-2 hover:text-white hover:bg-buttonColor transition  duration-200 border-buttonColor rounded-full p-2 text-buttonColor">
-          Say Hello
-        </button>
+        <a className=" hidden md:block underline underline-offset-4" href="">
+          sololadavid4@gmail.com
+        </a>
       </div>
     </div>
   );
