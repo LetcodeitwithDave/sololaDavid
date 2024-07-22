@@ -3,7 +3,7 @@ import image from "../../public/image/image2.png";
 
 function Hero() {
   return (
-    <div className="flex flex-col lg:flex-row mt-24 bg-white items-center ">
+    <div className="flex flex-col lg:flex-row mt-36 bg-white items-center ">
       <div className="text-left lg:w-1/2">
         <div className="text-lg text-baseContentSecondary font-poppinsRegular">
           Hey, I'm David 👋🏻
