@@ -8,7 +8,7 @@ function About() {
         About <span className="text-buttonColor">me</span>
       </h1>
 
-      <div className="flex gap-12 flex-col lg:flex-row items-center lg:mt-20 mt-16 sm:mt-6 md:mt-20 max-w-5xl  lg:max-w-6xl">
+      <div className="flex gap-12 flex-col lg:flex-row items-center lg:mt-16 mt-16 sm:mt-6 md:mt-20 max-w-5xl  lg:max-w-6xl">
         <img 
           src={about} 
           alt="about me image" 
