@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Hero from "./Hero";
 import About from "./About";
 import Projects from "./Projects";
+import Skill from "./Skill";
 
 function Home() {
   return (
@@ -20,7 +21,11 @@ function Home() {
       </section>
 
       <section className=" mb-5">
-        <Projects  />
+        <Projects />
+      </section>
+
+      <section className=" mb-5">
+        <Skill />
       </section>
     </div>
   );
