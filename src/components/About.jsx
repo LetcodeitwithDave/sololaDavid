@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="flex flex-col items-center mt-20 justify-center sm:px-16 md:px-28    lg:px-8">
       <h1 className="text-baseContent text-4xl font-poppinsBold">
-        About <span className="text-buttonColor">me</span>
+        About <span className="text-buttonColor">Me</span>
       </h1>
 
       <div className="flex gap-12 flex-col lg:flex-row items-center lg:mt-16 mt-16 sm:mt-6 md:mt-20 max-w-5xl  lg:max-w-6xl">
@@ -17,9 +17,9 @@ function About() {
 
         <div className="flex flex-col mt-0   px-4 lg:px-0  max-w-xl ">
           <h2 className="text-baseContent text-center lg:text-left lg:text-3xl text-2xl md:text-3xl font-poppinsSemiBold">
-            Hello! I'm <span className=" text-buttonColor">Solola David.</span>
+            Hello! I'm <span className=" text-buttonColor">Solola David</span>
           </h2>
-          <p className="font-poppinsMedium mt-2 text-baseContentSecondary  lg:text-lg  text-md ">
+          <p className="font-poppinsMedium mt-2 text-baseContentSecondary lg:text-lg text-lg">
             I specialize in creating dynamic and beautiful web applications.
             With a background in building and delivering high-quality projects,
             I have honed my skills in fullstack development.
