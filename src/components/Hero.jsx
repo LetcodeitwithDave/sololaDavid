@@ -1,6 +1,5 @@
 import React from "react";
-import image from "../../public/image/image2.png";
-
+import { profile } from "../../public/image";
 function Hero() {
   return (
     <div className="flex flex-col lg:flex-row mt-36 bg-white items-center ">
@@ -26,7 +25,7 @@ function Hero() {
       </div>
       <div className="relative border lg:border-gray-400 h-64 w-64 sm:h-72 sm:w-72 md:h-80 md:w-80 lg:h-96 lg:w-96 mx-auto mt-8 lg:mt-0 rounded-full">
         <img
-          src={image}
+          src={profile}
           alt="Hero"
           className="p-8 rounded-full absolute inset-0 object-cover"
         />
