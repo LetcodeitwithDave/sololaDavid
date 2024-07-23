@@ -1,5 +1,5 @@
 import React from "react";
-import about from '../../public/image/About.jpg'
+import { about } from "../../public/image";
 
 function About() {
   return (
@@ -9,9 +9,9 @@ function About() {
       </h1>
 
       <div className="flex gap-12 flex-col lg:flex-row items-center lg:mt-16 mt-16 sm:mt-6 md:mt-20 max-w-5xl  lg:max-w-6xl">
-        <img 
-          src={about} 
-          alt="about me image" 
+        <img
+          src={about}
+          alt="about me image"
           className="w-full  lg:w-1/2 h-auto rounded-xl shadow-lg  sm:mb-0 "
         />
 
@@ -20,11 +20,18 @@ function About() {
             Hello! I'm <span className=" text-buttonColor">Solola David.</span>
           </h2>
           <p className="font-poppinsMedium mt-2 text-baseContentSecondary  lg:text-lg  text-md ">
-            I specialize in creating dynamic and beautiful web applications. With a background in building and delivering high-quality projects, I have honed my skills in fullstack development. 
+            I specialize in creating dynamic and beautiful web applications.
+            With a background in building and delivering high-quality projects,
+            I have honed my skills in fullstack development.
             <br />
-            When I’m not on my computer, building or exploring new web experiences, I'm probably playing chess or listening to self-improvement podcasts. 
+            When I’m not on my computer, building or exploring new web
+            experiences, I'm probably playing chess or listening to
+            self-improvement podcasts.
             <br />
-            I'm fully committed to creating aesthetically beautiful, responsive, and usable products. <br />Feel free to browse my projects and get in touch if you'd like to collaborate!
+            I'm fully committed to creating aesthetically beautiful, responsive,
+            and usable products. <br />
+            Feel free to browse my projects and get in touch if you'd like to
+            collaborate!
           </p>
         </div>
       </div>
