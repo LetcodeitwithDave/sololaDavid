@@ -1,12 +1,19 @@
 import React from "react";
-import Contact from "../pages/Contacts";
+import { useLocation } from "react-router-dom";
 
 function Nav() {
   const navLinks = [
-    { href: "/", label: "Home", current: true },
-    { href: "#Team", label: "Works", current: false },
-    { href: "/contact", label: "Contact", current: false },
+    { href: "/", label: "Home" },
+    { href: "#Team", label: "Works" },
+    { href: "/contact", label: "Contact" },
   ];
+  const location = useLocation();
+
+  const getLocation = (path) => {
+    return location.pathname === path
+      ? "text-buttonColor"
+      : "text-baseContentSecondary";
+  };
   return (
     <div className=" flex  justify-between items-center   mt-4">
       <div className=" font-poppinsSemiBold text-md flex">
@@ -19,11 +26,7 @@ function Nav() {
             <li key={link.label}>
               <a
                 href={link.href}
-                className={` hover:text-buttonColor ${
-                  link.current
-                    ? "text-buttonColor"
-                    : "text-baseContentSecondary"
-                }`}
+                className={` hover:text-buttonColor ${getLocation(link.href)}`}
               >
                 {link.label}
               </a>
