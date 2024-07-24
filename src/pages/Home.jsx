@@ -1,10 +1,10 @@
 import React from "react";
-import Nav from "./Nav";
-import Hero from "./Hero";
-import About from "./About";
-import Projects from "./Projects";
-import Skill from "./Skill";
-import Reachout from "./Reachout";
+import Nav from "../sections/Nav";
+import Hero from "../sections/Hero";
+import About from "../sections/About";
+import Projects from "../sections/Projects";
+import Skill from "../sections/Skill";
+import Reachout from "../sections/Reachout";
 
 function Home() {
   return (

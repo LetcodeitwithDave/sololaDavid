@@ -1,6 +1,5 @@
 import React from "react";
-import Home from "./components/Home";
-import Contact from "./components/Contacts";
+import { Home, Contact } from "./pages";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {

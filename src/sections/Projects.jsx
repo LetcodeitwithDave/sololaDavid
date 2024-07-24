@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div className="flex flex-col items-center mt-28 justify-center">
       <h1 className="text-4xl items-center font-poppinsBold text-baseContent">
-        Selected <span className="text-buttonColor">Projects</span>
+        My Recent <span className="text-buttonColor">Work</span>
       </h1>
       <div className="mt-4 flex flex-col justify-center lg:flex-row gap-8">
         <div className="lg:w-1/2 lg:h-1/2 h-1/2 w-full px-4 py-4">

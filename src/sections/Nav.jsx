@@ -1,9 +1,9 @@
 import React from "react";
-import Contact from "./Contacts";
+import Contact from "../pages/Contacts";
 
 function Nav() {
   const navLinks = [
-    { href: "#dashboard", label: "Home", current: true },
+    { href: "/", label: "Home", current: true },
     { href: "#Team", label: "Works", current: false },
     { href: "/contact", label: "Contact", current: false },
   ];
@@ -33,7 +33,10 @@ function Nav() {
       </div>
 
       <div>
-        <a className=" hidden md:block underline underline-offset-4" href="">
+        <a
+          className=" hidden md:block underline underline-offset-4 "
+          href="mailto:sololadavid4@gmail.com"
+        >
           sololadavid4@gmail.com
         </a>
       </div>
