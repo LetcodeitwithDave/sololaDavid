@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Nav, Hero, About, Projects, Skill, Reachout} from '../sections'
+import { Nav, Hero, About, Projects, Skill, Reachout } from "../sections";
 
 function Home() {
   return (
