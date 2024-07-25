@@ -1,6 +1,7 @@
 import React from "react";
 
 function Reachout() {
+  console.log("nav is here");
   return (
     <div className="flex flex-col mt-28 justify-center items-center ">
       <h1 className="sm:text-4xl text-3xl   font-poppinsBold mt-16 text-white text-center">
@@ -23,10 +24,10 @@ function Reachout() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-mail"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-mail"
             >
               <rect width="20" height="16" x="2" y="4" rx="2" />
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
@@ -47,10 +48,10 @@ function Reachout() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-linkedin"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="lucide lucide-linkedin"
             >
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
               <rect width="4" height="12" x="2" y="9" />
@@ -83,7 +84,7 @@ function Reachout() {
       <p className=" text-white mb-4 mt-4 font-poppinsRegular">
         Made with ❤ by <span></span>
         <a href="mailto:sololadavid4@gmail.com" className=" underline">
-           Solola David
+          Solola David
         </a>
       </p>
     </div>
