@@ -16,10 +16,10 @@ function Hero() {
         </div>
         <div className="flex space-x-4 mt-4">
           <button className="bg-buttonColor text-sm text-white px-4 py-2 font-poppinsSemiBold hover:bg-purple-700 rounded-md">
-            Get in Touch
+            <a href="/contact">Get in Touch</a>
           </button>
           <button className="bg-white text-baseContent text-sm border border-baseContent hover:text-white transition duration-200 px-4 py-2 font-poppinsSemiBold hover:bg-baseContent rounded-md">
-            Browse Projects
+            <a href="/work">Browse Projects</a>
           </button>
         </div>
       </div>
