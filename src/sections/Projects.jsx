@@ -8,8 +8,8 @@ function Projects() {
         My Recent <span className="text-buttonColor">Work</span>
       </h1>
       <div className="mt-4 flex flex-col justify-center lg:flex-row gap-8">
-        <div className="lg:w-1/2 lg:h-1/2 h-1/2 w-full px-4 py-4">
-          <div className="px-9 py-6 bg-purple-500 rounded-lg hover:bg-purple-600 transition duration-300">
+        <div className="lg:w-1/2 lg:h-1/2 h-1/2 w-full px-1 py-1 lg:px-4 lg:py-4 ">
+          <div className="px-5 py-5 md:px-8 md:py-8 lg:px-9 lg:py-6 bg-purple-500 rounded-lg hover:bg-purple-600 transition duration-300">
             <img
               src={jobproject}
               alt=""
@@ -30,8 +30,8 @@ function Projects() {
           </div>
         </div>
 
-        <div className="lg:w-1/2 lg:h-1/2 h-1/2 w-full px-4 py-4">
-          <div className="px-9 py-9 bg-purple-500 rounded-lg hover:bg-purple-600 transition duration-300">
+        <div className="lg:w-[53%] lg:h-1/2 h-1/2 w-full px-1 py-1 lg:px-4 lg:py-4">
+          <div className="px-5 py-5 md:px-8 md:py-8 lg:px-9 lg:py-6 bg-purple-500 rounded-lg hover:bg-purple-600 transition duration-300">
             <img
               src={bookproject}
               alt=""
@@ -39,7 +39,7 @@ function Projects() {
             />
           </div>
 
-          <div className="mt-4">
+          <div className="mt-9">
             <h1 className="font-poppinsSemiBold text-2xl py-2 text-baseContent">
               BookHaven
             </h1>
