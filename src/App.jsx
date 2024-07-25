@@ -1,5 +1,5 @@
 import React from "react";
-import { Home, Contact, Work } from "./pages";
+import { Home, Contact, Work, TechLaunch } from "./pages";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/work/techlaunch" element={<TechLaunch />} />
       </Routes>
     </Router>
   );
