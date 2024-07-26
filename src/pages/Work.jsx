@@ -21,7 +21,7 @@ function Work() {
 
       <div className="mt-12 flex flex-col justify-center ">
         <a href="/work/techlaunch">
-          <div className="h-1/2 w-full  lg:px-28 lg:py-4 ">
+          <div className="h-1/2 w-full  lg:px-4 lg:py-4 ">
             <div>
               <img
                 src={jobMockup}
@@ -51,7 +51,7 @@ function Work() {
           </div>
         </a>
         <a href="">
-          <div className="h-full mt-12 md:mt-20 w-full px-1 py-1 lg:px-28 lg:py-4">
+          <div className="h-full mt-12 md:mt-20 w-full px-1 py-1 lg:px-4 lg:py-4">
             <div>
               <img
                 src={bookMockup}
