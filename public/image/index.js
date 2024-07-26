@@ -6,6 +6,8 @@ import frontend  from './frontend.png'
 import backend from './goal.png'
 import softskill from './softskill.png'
 import  webdesign from './webdesign.png'
+import bookMockup from './bookMockup.png'
+import jobMockup from './jobMockup.png'
 
 export {
     about,
@@ -15,5 +17,8 @@ export {
     frontend,
     backend,
     webdesign,
-    softskill
+    softskill,
+    bookMockup,
+    jobMockup
+
 }
