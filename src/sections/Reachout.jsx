@@ -1,9 +1,36 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 function Reachout() {
-  console.log("nav is here");
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/work", label: "Works" },
+    { href: "/contact", label: "Contact" },
+  ];
+  const location = useLocation();
+
+  const getLocation = (path) => {
+    return location.pathname === path
+      ? "text-gray-400"
+      : "text-baseContentSecondary";
+  };
   return (
     <div className="flex flex-col mt-28 justify-center items-center ">
+      <ul className="flex gap-10  mt-16 font-poppinsSemiBold text-md">
+        {navLinks.map((link) => (
+          <li key={link.label}>
+            <a
+              href={link.href}
+              className={`hover:text-gray-400 text-white ${getLocation(
+                link.href
+              )}`}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+
       <h1 className="sm:text-4xl text-3xl   font-poppinsBold mt-16 text-white text-center">
         Get In Touch
       </h1>
