@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { isCompositeComponent } from "react-dom/test-utils";
 import { useLocation } from "react-router-dom";
 
 function Nav() {
@@ -44,7 +43,7 @@ function Nav() {
           ))}
         </ul>
 
-        <div className="md:hidden">
+        <button className="md:hidden ">
           {isOpen ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +56,7 @@ function Nav() {
               strokeLinecap="round"
               strokeLinejoin="round"
               onClick={toggleDropdown}
-              className="lucide lucide-x ml-auto"
+              className="lucide lucide-x text-baseContentSecondary "
             >
               <path d="M18 6 6 18" />
               <path d="m6 6 12 12" />
@@ -74,14 +73,14 @@ function Nav() {
               strokeLinecap="round"
               strokeLinejoin="round"
               onClick={toggleDropdown}
-              className="lucide lucide-align-justify ml-auto"
+              className="lucide lucide-align-justify text-baseContentSecondary "
             >
               <line x1="3" x2="21" y1="6" y2="6" />
               <line x1="3" x2="21" y1="12" y2="12" />
               <line x1="3" x2="21" y1="18" y2="18" />
             </svg>
           )}
-        </div>
+        </button>
 
         <a
           className="hidden md:block underline underline-offset-4"
@@ -92,13 +91,13 @@ function Nav() {
       </div>
 
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white shadow-lg z-50">
+        <div className="absolute top-16 left-0 w-full  bg-white shadow-lg z-50 ">
           <ul className="flex flex-col items-start gap-4 py-4 px-4">
             {navLinks.map((link) => (
               <li key={link.label}>
                 <a
                   href={link.href}
-                  className={`text-baseContent text-lg ${getLocation(
+                  className={`text-baseContent font-poppinsSemiBold text-lg hover:text-buttonColor ${getLocation(
                     link.href
                   )}`}
                   onClick={toggleDropdown}
@@ -107,6 +106,19 @@ function Nav() {
                 </a>
               </li>
             ))}
+            <div className=" flex flex-col">
+              <h1 className=" font-poppinsSemiBold mt-2 text-gray-400 text-xl">
+                Say Hello
+              </h1>
+              <div className=" mt-2">
+                <a
+                  href="mailto:sololadavid4@gmail.com"
+                  className=" text-buttonColor font-poppinsSemiBold"
+                >
+                  sololadavid4@gmail.com
+                </a>
+              </div>
+            </div>
           </ul>
         </div>
       )}
