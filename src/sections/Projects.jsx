@@ -1,5 +1,5 @@
 import React from "react";
-import { jobproject, bookproject } from "../../public/image";
+import { jobMockup, bookMockup } from "../../public/image";
 
 function Projects() {
   return (
@@ -8,20 +8,36 @@ function Projects() {
         My Recent <span className="text-buttonColor">Work</span>
       </h1>
       <div className="mt-4 flex flex-col justify-center lg:flex-row gap-8">
-        <div className="lg:w-1/2 lg:h-1/2 h-1/2 w-full px-1 py-1 lg:px-4 lg:py-4 ">
-          <div className="px-5 py-5 md:px-8 md:py-8 lg:px-9 lg:py-6 bg-purple-500 rounded-lg hover:bg-purple-600 transition duration-300">
-            <img
-              src={jobproject}
-              alt=""
-              className="rounded-lg transform hover:scale-105 transition duration-300"
-            />
-          </div>
-
-          <div className="mt-4">
-            <h1 className="font-poppinsSemiBold text-2xl py-2 text-baseContent">
-              Techlaunch
-            </h1>
-          </div>
+        <div className=" lg:h-1/2 h-1/2 w-full px-1 py-1 lg:px-4 lg:py-4 ">
+          <img
+            src={jobMockup}
+            alt=""
+            className="rounded-lg transform hover:scale-105 transition duration-300"
+          />
+          <a href="/work/techlaunch" className="group">
+            <div className="mt-4 flex gap-4">
+              <h1 className="font-poppinsBold text-2xl py-2 text-baseContent group-hover:text-baseContentSecondary">
+                Techlaunch
+              </h1>
+              <div className="mt-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-arrow-up-right transition duration-300 rounded-full border border-buttonColor text-baseContent bg-white group-hover:bg-buttonColor group-hover:text-white"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" />
+                </svg>
+              </div>
+            </div>
+          </a>
           <div>
             <p className="font-poppinsMedium text-lg text-baseContent">
               Job board platform, enabling student get tech jobs based on their
@@ -30,20 +46,36 @@ function Projects() {
           </div>
         </div>
 
-        <div className="lg:w-[53%] lg:h-1/2 h-1/2 w-full px-1 py-1 lg:px-4 lg:py-4">
-          <div className="px-5 py-5 md:px-8 md:py-8 lg:px-9 lg:py-6 bg-purple-500 rounded-lg hover:bg-purple-600 transition duration-300">
-            <img
-              src={bookproject}
-              alt=""
-              className="rounded-lg object-cover transform hover:scale-105 transition duration-300"
-            />
-          </div>
-
-          <div className="mt-9">
-            <h1 className="font-poppinsSemiBold text-2xl py-2 text-baseContent">
-              BookHaven
-            </h1>
-          </div>
+        <div className=" lg:h-1/2 h-1/2 w-full px-1 py-1 lg:px-4 lg:py-4">
+          <img
+            src={bookMockup}
+            alt=""
+            className="rounded-lg object-cover transform hover:scale-105 transition duration-300"
+          />
+          <a href="#" className=" group">
+            <div className="mt-9 flex gap-4">
+              <h1 className="font-poppinsBold text-2xl py-2 text-baseContent group-hover:text-baseContentSecondary">
+                BookHaven
+              </h1>
+              <div className="mt-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-arrow-up-right transition duration-300 rounded-full border border-buttonColor text-baseContent bg-white group-hover:bg-buttonColor group-hover:text-white"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" />
+                </svg>
+              </div>
+            </div>
+          </a>
           <div>
             <p className="font-poppinsMedium text-lg text-baseContent">
               E-commerce platform promoting eco-friendly books.
