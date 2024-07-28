@@ -53,7 +53,7 @@ function Skill() {
             <h2 className="text-2xl  font-poppinsBold text-baseContent text-center  mt-4 mb-4">
               {skill.category}
             </h2>
-            <ul className="text-lg font-poppinsMedium  text-baseContentSecondary text-center">
+            <ul className="text-lg font-poppinsMedium  text-baseContentSecondary text-left">
               {skill.detail
                 ? skill.detail
                 : skill.details.map((detail, i) => <li key={i}>{detail}</li>)}
